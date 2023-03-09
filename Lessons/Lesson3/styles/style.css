@@ -5,5 +5,37 @@
 
 ul,ol {
     padding: 25px;
-    list-style: upper-roman;
 }
+
+table{
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table,tr,td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+.ColorTable {
+    /* background-color: green; */
+}
+
+/* table tr:nth-child(4n+1){
+    background-color: green;
+}
+table tr:nth-child(4n+2){
+    background-color: blue;
+}
+table tr:nth-child(4n+3){
+    background-color: red;
+}
+table tr:nth-child(4n+4){
+    background-color: violet;
+} */
+/* 
+table tr:nth-child(odd) td:nth-child(even),
+table tr:nth-child(even) td:nth-child(odd)
+{
+    background-color: black;
+} */
