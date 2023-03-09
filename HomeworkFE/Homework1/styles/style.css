@@ -1,0 +1,12 @@
+p {
+    /* border: 1px solid  rgb(95, 95, 194) */
+    background-color: #34495E;
+    border-radius: 20px;
+    padding: 21px 80px 21px 80px;
+    margin: 20px;
+    color: lightgray;
+    font-size: 17.5px;
+}
+h1 {
+    margin: 10px;
+}

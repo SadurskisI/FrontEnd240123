@@ -1,0 +1,47 @@
+img {
+    width: 400px;
+    height: 300px;
+}
+
+h1 {
+    color: aqua;
+}
+
+h2{
+    color: blue;
+}
+
+h3{
+    color: violet;
+}
+
+h4{
+    color: yellow;
+}
+
+h5{
+    color: rebeccapurple;
+}
+
+h6{
+    color: brown;
+}
+p, pre {
+    color: black;
+    /* background-color: black; */
+}
+p{
+    font-size: 24px;
+    display: block;
+    border: 1px solid red;
+}
+a{
+    display: inline;
+    border: 1px solid red;
+}
+
+q{
+    color: blue;
+    display: inline;
+    border: 1px solid red;
+}
