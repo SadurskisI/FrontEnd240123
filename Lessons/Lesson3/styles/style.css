@@ -17,9 +17,9 @@ table,tr,td {
     border-collapse: collapse;
 }
 
-.ColorTable {
-    /* background-color: green; */
-}
+/* .ColorTable {
+     background-color: green; 
+} */
 
 /* table tr:nth-child(4n+1){
     background-color: green;

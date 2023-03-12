@@ -1,0 +1,12 @@
+table,td {
+    border: 1px double black;
+ 
+}
+.NameHeader {
+    font-weight: 700;
+    text-align: center;
+}
+img {
+    height: 28px;
+    width: 28px;
+}
