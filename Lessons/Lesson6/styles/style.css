@@ -1,0 +1,87 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*body {
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: grey;
+    box-shadow: 4px 4px 5px magenta;
+    border-radius: 10px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form>*:not(:last-child){
+    margin-bottom: 10px;
+} */
+
+.main {
+    display: flex;
+    background-image: url(/Lessons/Lesson6/media/backgroundfoto.png);
+    color: white;
+    padding: 0 405px;
+    padding-top: 122px;
+    padding-bottom: 140px;
+}
+
+.main .contacts h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.main .contacts p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+}
+
+.main .contacts .contacts-content {
+    display: flex;
+}
+
+.main .contacts .contants-content>div {
+    display: flex;
+    align-items: center; 
+}
+
+.main .message-form form h4 {
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.main .message-form form .user-data {
+display: flex;
+}
+
+.main .message-form form .user-data>div:not(:last-child) {
+    margin-right: 30px;
+}
+
+.main .message-form form .user-data input {
+    padding-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 21px;
+    margin-top: 15px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.main .message-form form .user-data input:focus-visible {
+    outline: none;
+}
