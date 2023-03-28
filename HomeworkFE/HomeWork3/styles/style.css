@@ -4,13 +4,24 @@
     box-sizing: border-box;
 }
 
+body {
+height: 100vh;
+}
+
+.popup {
+    position: relative;
+    left: 600px;
+    top: 200px;
+    
+}
+
 .modal-container {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 16px;
-    position: relative;
     width: 420px;
     height: 426px;
     box-shadow: 0 2px 8px rgba(40, 41, 61, 0.08),
@@ -22,81 +33,65 @@
 }
 
 .modal-container h1 {
-    display: flex;
-    align-items: center;
-    width: 356px;
     height: 32px;
     margin-bottom: 24px;
     font-weight: 800;
     
 }
 
-.modal-container .input-text  {
-    border: 1px solid#FFE44D;
+.modal-container input {
+    border: 1px solid #CFD8DC;
     border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 7px 16px;
-    width: 356px;
+    width: 100%;
     height: 48px;
     margin-bottom: 8px;
     font-weight: 400;
 }
 
-.modal-container .input-password {
-    border: 1px solid #CFD8DC;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 7px 16px;
-    width: 356px;
-    height: 48px;
+.modal-container input:focus {
+    border: 1px solid #FFE44D;
+}
+
+input {
+    outline: none;
+}
+
+.modal-container input[type=password] {
     margin-bottom: 24px;
-    font-weight: 400;
+    
 }
 
 .modal-container p {
-    width: 356px;
+    width: 100%;
     height: 42px;
     color: #7b8e98;
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 24px;
-    font-weight: 400;
 }
 
 .modal-container .reg-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 14px 24px;
-    width: 356px;
+    width: 100%;
     height: 48px;
     border: 1px solid #FFE44D;
     background-color: #FFE44D;
     border-radius: 555px;
     cursor: pointer;
     margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .modal-container .log-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 14px 24px;
-    width: 356px;
+    width: 100%;
     height: 48px;
     border-radius: 555px;
     cursor: pointer;
     background-color: white;
     border: 1px solid #CFD8DC;
-}
-
-.modal-container .reg-text, .log-text {
     font-weight: 700;
     font-size: 16px;
 }
@@ -104,9 +99,9 @@
 .modal-container .close-button {
     width: 14px;
     height: 14px;
-    top: 10px;
-    right: 10px;
-    position: absolute;
+    top: 0px; 
+    left: 170px;
+    position: relative;
     cursor: pointer;
     color: #1A1A1A;
     background: none;

@@ -11,15 +11,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="modal-container">
-        <button class="close-button">X</button>
-        <h1>Регистрация</h1>
-        <input type="text" class="input-text">
-        <input type="password" placeholder="Пароль" class="input-password">
-        <p>Регистрируясь на сайте, вы соглашаетесь с нашими Правилами и Политикой конфиденциальности и соглашаетесь на информационную рассылку.
-        </p>
-        <button class="reg-button"><span class="reg-text">Зарегистрироваться</span></button>
-        <button class="log-button"><span class="log-text">Войти</span></button>
+    <div class="popup">
+        <div class="modal-container">
+            <button class="close-button">X</button>
+            <h1>Регистрация</h1>
+            <form>
+                <input type="text" class="input-text">
+                <input type="password" placeholder="Пароль" class="input-password">
+                <p>
+                    Регистрируясь на сайте, вы соглашаетесь с нашими Правилами и Политикой конфиденциальности и соглашаетесь на информационную рассылку.
+                </p>
+                <button class="reg-button">Зарегистрироваться</button>
+                <button class="log-button">Войти</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>

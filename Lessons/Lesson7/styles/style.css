@@ -32,7 +32,7 @@
     позиционирует по отношению своей оси*/
 }
 
- /* .container .inner:nth-child(1) {
+  .container .inner:nth-child(1) {
     top: 10px;
     left: 10px;
 
@@ -51,7 +51,7 @@
 .container .inner:nth-child(4) {
     bottom: 10px;
     right: 10px;
-}  */
+}  
 
 .container .inner:nth-child(1) {
     top: 10px;

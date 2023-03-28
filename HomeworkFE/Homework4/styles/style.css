@@ -1,0 +1,46 @@
+* {
+    margin: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+}
+.inner {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.container .inner:nth-child(1) {
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    z-index: 2;
+
+}
+
+.container .inner:nth-child(2) {
+    top: 50px;
+    left: 50px;
+    background-color: green;
+    z-index: 3;
+} 
+
+.container .inner:nth-child(3) {
+    top: 100px;
+    left: 100px;
+    background-color: blue;
+    z-index: 1;
+} 
+
+.container .inner:nth-child(2):hover {
+    width: 300px;
+    height: 300px;
+    transition-duration: 1s;
+    rotate: -45deg;
+}
