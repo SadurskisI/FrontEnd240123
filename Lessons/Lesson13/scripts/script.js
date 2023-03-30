@@ -69,5 +69,4 @@ for (let index = 0; index < paragraphsTexts.length; index++) {
         const p = document.createElement("p")
         p.innerText = paragraphsTexts[index]
         div.append(p)
-        
 }

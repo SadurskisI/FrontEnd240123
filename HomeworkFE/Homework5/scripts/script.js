@@ -34,7 +34,7 @@
 // const age = prompt("insert your age in numbers")
 // 
 //   if (age >= 18) {
-//     console.log("Hello, "+firstName);
+    // console.log(`Hello, ${firstName}`);
 // } else {
-//     console.log("Hi, "+firstName);
+    // console.log(`Hi, ${firstName}`);
 // }
