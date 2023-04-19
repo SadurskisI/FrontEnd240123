@@ -31,7 +31,7 @@ form.addEventListener("submit", function(event){
 })
 
 function rerender(){
-    list.innerText = ""
+    list.innerHTML = ""
      for (let index = 0; index < todoItems.length; index++) {
         const newItem = createTaskNode(todoItems[index], index)
         list.append(newItem)
